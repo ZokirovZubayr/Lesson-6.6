@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.card {
+    border: 1px solid rgb(9, 255, 0);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.btnWrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.btnCreater {
+    width: 440px;
+    padding: 5px 0;
+    border: 1px solid rgb(9, 255, 0);
+    cursor: pointer;
+}
+
+.btnCreater:hover {
+    background-color: rgb(9, 255, 0);
+    border: 1px solid grey;
+    color: white;
+    font-style: bold;
+}
